@@ -1,0 +1,13 @@
+prefix=/Users/palakprashant/LangGraph_Agentic_AI/venv
+exec_prefix=/Users/palakprashant/LangGraph_Agentic_AI/venv
+libdir=/Users/palakprashant/LangGraph_Agentic_AI/venv/lib
+sharedlibdir=/Users/palakprashant/LangGraph_Agentic_AI/venv/lib
+includedir=/Users/palakprashant/LangGraph_Agentic_AI/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
